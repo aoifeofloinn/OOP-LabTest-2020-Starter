@@ -35,7 +35,11 @@ public class Gantt extends PApplet
 
 	public void displayTasks()
 	{
-
+		float xborder = width * 0.10f;
+		float yborder = height * .05f;
+		int counter = 1;
+		int gradiant = 29;
+		float gradArray[] = new float[20];
 	}
 	
 	public void mousePressed()
