@@ -35,11 +35,18 @@ public class Gantt extends PApplet
 
 	public void displayTasks()
 	{
-		int gradiant = 25;
-		float aborder = width * 0.25f;
-		float bborder = height * .01f;
-		int counter = 1;
-		float gradiantArray[] = new float[25];
+		int space = 30;
+		float xaxis = width * 0.25f;
+		float yaxis = height * 0.05f;
+		int a = 1;
+		float array[] = new float[31];
+
+		stroke(255);
+		fill(255);
+
+		for( int i = 0; i < space; i++){
+			
+		}
 
 	}
 	
