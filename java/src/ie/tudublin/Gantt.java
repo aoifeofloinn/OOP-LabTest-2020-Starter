@@ -45,7 +45,7 @@ public class Gantt extends PApplet
 		fill(255);
 
 		for( int i = 0; i < space; i++){
-			
+			float y = map(i, 0,5)
 		}
 
 	}
